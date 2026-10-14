@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 190" role="img" aria-labelledby="title desc">
+  <title id="title">旅汇旅行小伙伴</title>
+  <desc id="desc">黑色小旅人抱着一个写有马币符号的钱袋。</desc>
+  <!-- shadow / little patch of ground -->
+  <ellipse cx="119" cy="157" rx="112" ry="19" fill="#050505"/>
+  <!-- round traveler -->
+  <path d="M34 151C30 119 35 75 63 45 86 20 120 13 149 22c27 8 46 28 56 57 8 22 9 49 5 72-31 12-140 15-176 0Z" fill="#050505"/>
+  <!-- playful highlight along the left side -->
+  <path d="M45 124c1-30 8-55 26-74 9-10 20-17 33-21-22 20-34 47-39 83l-3 21" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <!-- curious eyes -->
+  <path d="M86 78c-13 0-22 12-20 26 2 13 12 22 24 19 10-3 15-13 13-25-2-12-8-20-17-20Z" fill="#fff"/>
+  <path d="M91 91c-7-4-14 1-15 8-1 7 4 13 10 13 7 0 11-6 10-12-1-4-2-7-5-9Z" fill="#050505"/>
+  <path d="M128 62c-13 1-21 14-18 28 3 12 12 20 24 17 11-3 15-14 12-26-2-12-9-20-18-19Z" fill="#fff"/>
+  <path d="M134 75c-7-4-14 1-15 8-1 7 4 13 10 13 7 0 11-6 10-12-1-4-2-7-5-9Z" fill="#050505"/>
+  <!-- money pouch held in front -->
+  <path d="M160 94c4-15 21-25 39-22 21 3 34 20 32 42l-4 26c-2 19-18 31-39 28-20-3-34-17-32-35z" fill="#fff" stroke="#050505" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M194 94v8m0 45v8m10-48c-4-6-19-7-23 1-5 11 23 10 20 23-2 9-15 11-23 5" fill="none" stroke="#050505" stroke-width="7" stroke-linecap="round"/>
+  <!-- little hands -->
+  <path d="M34 132c-12-3-20 6-18 17 2 12 13 18 25 14 8-3 13-10 13-18 0-7-5-11-11-9-4 1-5 5-6 9" fill="#fff" stroke="#050505" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M207 139c-10 5-13 17-6 26 8 10 24 10 32 0 7-9 5-21-3-27-7-5-15-2-18 4" fill="#fff" stroke="#050505" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- excited little marks -->
+  <path d="m220 43 8-17m12 28 16-10" stroke="#050505" stroke-width="7" stroke-linecap="round"/>
+</svg>
