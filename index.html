@@ -1,3 +1,4 @@
+/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 <!doctype html>
 <html lang="zh-CN">
 <head>
@@ -107,13 +108,25 @@
   @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
   /* The clear control replaces the decorative direction arrow between amounts. */
   .trip-pill{background:#fffaff;border-color:#e9def6;color:#55427a;box-shadow:0 3px 10px #5d3aa20d;border-radius:15px}
-  .swapline{height:26px;margin-left:28px;position:relative;border:0}
-  .swapline:before{content:"";position:absolute;left:0;top:0;bottom:0;border-left:1px dashed #ccb9ec}
-  .swapline:after{display:none}
-  .clear-button{position:absolute;z-index:2;left:0;top:50%;transform:translate(-50%,-50%);min-width:54px;height:29px;padding:0 10px;border:1px solid #e5d9f6;border-radius:11px;background:#fff;color:#7049df;box-shadow:0 3px 9px #684a9814;font-size:11px;font-weight:700}
-  .clear-button:hover{background:#f4efff;color:#5835d4}
+  /* Keep every action in the same soft, rounded button family as “新建旅行”. */
+  button{border-radius:13px;transition:background .16s ease,color .16s ease,box-shadow .16s ease,transform .16s ease}
+  .primary{background:linear-gradient(115deg,#7149e9,#a246dd);box-shadow:0 4px 0 #d8c9ff;color:#fff}
+  .primary:hover{background:linear-gradient(115deg,#6035dd,#9132d2);transform:translateY(-1px)}
+  .secondary,.text-button,.mini-btn,.guide-button,.icon-btn,.trip-pill,.clear-button,.close{background:#f1eaff;border:1px solid #e8dcff;color:#6745df;box-shadow:0 3px 0 #e4d8ff}
+  .secondary:hover,.text-button:hover,.mini-btn:hover,.guide-button:hover,.icon-btn:hover,.trip-pill:hover,.clear-button:hover,.close:hover{background:#e9deff;color:#5734d4}
+  .secondary,.danger{border-radius:13px}
+  .danger{box-shadow:0 3px 0 #ffd1dc}
+  .text-button{padding:8px 12px;font-size:12px;font-weight:700}
+  .mini-btn{width:35px;height:35px;border-radius:12px}
+  .guide-button{width:38px;height:38px;padding:0;border-radius:13px;font-weight:800;font-size:17px}
+  .trip-pill{border-radius:13px}
+  .icon-btn{border-radius:13px}
+  .close{width:34px;height:34px;border-radius:12px}
+  .swapline{height:42px;margin:0;position:relative;border:0;display:flex;align-items:center;justify-content:center}
+  .swapline:before,.swapline:after{display:none}
+  .clear-button{position:static;z-index:2;transform:none;min-width:96px;height:34px;padding:0 16px;font-size:12px;font-weight:700}
+  .clear-button:hover{transform:translateY(-1px)}
   .clear-button:focus-visible{outline:2px solid #9b7af2;outline-offset:3px}
-  .guide-button{width:38px;height:38px;padding:0;border:1px solid #e9def6;border-radius:14px;background:#fff;color:#7049df;font-weight:800;font-size:17px;box-shadow:0 3px 10px #5d3aa20d}
   .guide-backdrop{z-index:8}.guide-modal{padding:22px}.guide-top{display:flex;align-items:center;justify-content:space-between;color:#807694;font-size:12px;font-weight:700}.guide-progress{display:flex;align-items:center;gap:6px;margin:20px 0 12px}.guide-progress span{height:5px;flex:1;border-radius:9px;background:#eee9f3}.guide-progress span.current,.guide-progress span.done{background:#714df3}.guide-progress small{margin-left:5px;color:#89819b;font-size:10px}.guide-illustration{height:74px;width:74px;margin:8px auto 12px;border-radius:25px;background:linear-gradient(140deg,#fff0a8,#ffe2ef);display:grid;place-items:center;font-size:35px}.guide-modal>.eyebrow{text-align:center}.guide-modal h2{margin:5px 0;text-align:center;font-size:22px;color:#30264b}.guide-modal>p{text-align:center;margin:8px 0 15px;color:#706981;font-size:14px;line-height:1.7}.guide-tip{padding:12px 14px;border-radius:14px;background:#f5f0ff;color:#6248a3;text-align:center;font-size:12px}.guide-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:20px}.guide-actions>div{display:flex;gap:7px}.guide-actions button{font-size:12px;padding:10px 13px}
   </style>
 </head>
