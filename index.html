@@ -113,6 +113,11 @@
     .stat-card{background:transparent;border:0;box-shadow:none}
     .stat-icon{background:#fff0a8}
     .stat-bottom{border-top-color:#e6ddef}
+    /* Date and note inputs need their own row on narrow screens. Native date
+       controls have a large intrinsic width in iOS Safari and overlap in two columns. */
+    .form-grid{grid-template-columns:minmax(0,1fr);gap:0}
+    .form-grid>*,.form-row{min-width:0}
+    .form-row input,.form-row select{display:block;width:100%;min-width:0;max-width:100%}
   }
   @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
   /* The clear control replaces the decorative direction arrow between amounts. */
